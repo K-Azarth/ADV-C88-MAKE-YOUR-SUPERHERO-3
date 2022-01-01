@@ -4,13 +4,12 @@ var Block_height = 30;
 var Player_X = 20;
 var Player_Y = 10;
 var Player_object = "";
-var Block_object = "";
 
 function Player_Update() {
     fabric.Image.fromURL("Captain_Marvel.png", function(Img) {
         Player_object = Img;
         Player_object.scaleToWidth(45);
-        Player_object.scaleToHeight(92);
+        Player_object.scaleToHeight(90);
         Player_object.set({
             top: Player_Y,
             left: Player_X
